@@ -56,7 +56,7 @@ export default function App() {
                 notes.length > 0
                     ?
                     <Split
-                        sizes={[30, 70]}
+                        sizes={[17, 83]}
                         direction="horizontal"
                         className="split"
                     >
