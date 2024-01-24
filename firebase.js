@@ -14,4 +14,4 @@ const firebaseConfig = {
 const app = initializeApp(firebaseConfig);
 const database = getFirestore(app);
 const notesCollection = collection(database, "Notes")
-console.log(notesCollection)
+export default notesCollection
